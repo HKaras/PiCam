@@ -9,4 +9,4 @@ camera.resolution = (2592, 1944)
 camera.start_preview()
 #Camera warm up time
 time.sleep(2)
-camera.capture('%s.jpg') % timestr
+camera.capture('%r.jpg') % timestr
